@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Periodic Table</title>
+<style>
+  body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 30px auto;
+  }
+
+  td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #222;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* Element colors */
+  .hydrogen { background-color: #00c8c8; }
+  .alkali { background-color: #2962ff; }
+  .alkaline { background-color: #7c4dff; }
+  .transition { background-color: #ff5252; }
+  .post-transition { background-color: #ffab40; }
+  .metalloid { background-color: #ffd740; }
+  .nonmetal { background-color: #00e5ff; }
+  .halogen { background-color: #64ffda; }
+  .noble { background-color: #26c6da; }
+  .lanthanide { background-color: #536dfe; }
+  .actinide { background-color: #8e24aa; }
+
+  .empty {
+    border: none;
+    background: none;
+  }
+
+  caption {
+    caption-side: top;
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Periodic Table of Elements</caption>
+
+ 
+  <tr>
+    <td class="hydrogen">H<br><small>1</small></td>
+    <td colspan="16" class="empty"></td>
+    <td class="noble">He<br><small>2</small></td>
+  </tr>
+
+  
+  <tr>
+    <td class="alkali">Li<br><small>3</small></td>
+    <td class="alkaline">Be<br><small>4</small></td>
+    <td colspan="10" class="empty"></td>
+    <td class="metalloid">B<br><small>5</small></td>
+    <td class="nonmetal">C<br><small>6</small></td>
+    <td class="nonmetal">N<br><small>7</small></td>
+    <td class="nonmetal">O<br><small>8</small></td>
+    <td class="halogen">F<br><small>9</small></td>
+    <td class="noble">Ne<br><small>10</small></td>
+  </tr>
+
+  
+  <tr>
+    <td class="alkali">Na<br><small>11</small></td>
+    <td class="alkaline">Mg<br><small>12</small></td>
+    <td colspan="10" class="empty"></td>
+    <td class="post-transition">Al<br><small>13</small></td>
+    <td class="metalloid">Si<br><small>14</small></td>
+    <td class="nonmetal">P<br><small>15</small></td>
+    <td class="nonmetal">S<br><small>16</small></td>
+    <td class="halogen">Cl<br><small>17</small></td>
+    <td class="noble">Ar<br><small>18</small></td>
+  </tr>
+
+
+  <tr>
+    <td class="alkali">K<br><small>19</small></td>
+    <td class="alkaline">Ca<br><small>20</small></td>
+    <td class="transition">Sc<br><small>21</small></td>
+    <td class="transition">Ti<br><small>22</small></td>
+    <td class="transition">V<br><small>23</small></td>
+    <td class="transition">Cr<br><small>24</small></td>
+    <td class="transition">Mn<br><small>25</small></td>
+    <td class="transition">Fe<br><small>26</small></td>
+    <td class="transition">Co<br><small>27</small></td>
+    <td class="transition">Ni<br><small>28</small></td>
+    <td class="transition">Cu<br><small>29</small></td>
+    <td class="transition">Zn<br><small>30</small></td>
+    <td class="post-transition">Ga<br><small>31</small></td>
+    <td class="metalloid">Ge<br><small>32</small></td>
+    <td class="metalloid">As<br><small>33</small></td>
+    <td class="nonmetal">Se<br><small>34</small></td>
+    <td class="halogen">Br<br><small>35</small></td>
+    <td class="noble">Kr<br><small>36</small></td>
+  </tr>
+
+
+  <tr>
+    <td class="alkali">Rb<br><small>37</small></td>
+    <td class="alkaline">Sr<br><small>38</small></td>
+    <td class="transition">Y<br><small>39</small></td>
+    <td class="transition">Zr<br><small>40</small></td>
+    <td class="transition">Nb<br><small>41</small></td>
+    <td class="transition">Mo<br><small>42</small></td>
+    <td class="transition">Tc<br><small>43</small></td>
+    <td class="transition">Ru<br><small>44</small></td>
+    <td class="transition">Rh<br><small>45</small></td>
+    <td class="transition">Pd<br><small>46</small></td>
+    <td class="transition">Ag<br><small>47</small></td>
+    <td class="transition">Cd<br><small>48</small></td>
+    <td class="post-transition">In<br><small>49</small></td>
+    <td class="post-transition">Sn<br><small>50</small></td>
+    <td class="metalloid">Sb<br><small>51</small></td>
+    <td class="nonmetal">Te<br><small>52</small></td>
+    <td class="halogen">I<br><small>53</small></td>
+    <td class="noble">Xe<br><small>54</small></td>
+  </tr>
+
+
+  <tr>
+    <td class="alkali">Cs<br><small>55</small></td>
+    <td class="alkaline">Ba<br><small>56</small></td>
+    <td class="lanthanide">*</td>
+    <td class="transition">Hf<br><small>72</small></td>
+    <td class="transition">Ta<br><small>73</small></td>
+    <td class="transition">W<br><small>74</small></td>
+    <td class="transition">Re<br><small>75</small></td>
+    <td class="transition">Os<br><small>76</small></td>
+    <td class="transition">Ir<br><small>77</small></td>
+    <td class="transition">Pt<br><small>78</small></td>
+    <td class="transition">Au<br><small>79</small></td>
+    <td class="transition">Hg<br><small>80</small></td>
+    <td class="post-transition">Tl<br><small>81</small></td>
+    <td class="post-transition">Pb<br><small>82</small></td>
+    <td class="post-transition">Bi<br><small>83</small></td>
+    <td class="nonmetal">Po<br><small>84</small></td>
+    <td class="halogen">At<br><small>85</small></td>
+    <td class="noble">Rn<br><small>86</small></td>
+  </tr>
+
+  <!-- Row 7 -->
+  <tr>
+    <td class="alkali">Fr<br><small>87</small></td>
+    <td class="alkaline">Ra<br><small>88</small></td>
+    <td class="actinide">**</td>
+    <td class="transition">Rf<br><small>104</small></td>
+    <td class="transition">Db<br><small>105</small></td>
+    <td class="transition">Sg<br><small>106</small></td>
+    <td class="transition">Bh<br><small>107</small></td>
+    <td class="transition">Hs<br><small>108</small></td>
+    <td class="transition">Mt<br><small>109</small></td>
+    <td class="transition">Ds<br><small>110</small></td>
+    <td class="transition">Rg<br><small>111</small></td>
+    <td class="transition">Cn<br><small>112</small></td>
+    <td class="post-transition">Nh<br><small>113</small></td>
+    <td class="post-transition">Fl<br><small>114</small></td>
+    <td class="post-transition">Mc<br><small>115</small></td>
+    <td class="post-transition">Lv<br><small>116</small></td>
+    <td class="halogen">Ts<br><small>117</small></td>
+    <td class="noble">Og<br><small>118</small></td>
+  </tr>
+</table>
+
+<!-- Lanthanides and Actinides -->
+<table>
+  <tr>
+    <td colspan="2" class="empty"></td>
+    <td class="lanthanide">La<br><small>57</small></td>
+    <td class="lanthanide">Ce<br><small>58</small></td>
+    <td class="lanthanide">Pr<br><small>59</small></td>
+    <td class="lanthanide">Nd<br><small>60</small></td>
+    <td class="lanthanide">Pm<br><small>61</small></td>
+    <td class="lanthanide">Sm<br><small>62</small></td>
+    <td class="lanthanide">Eu<br><small>63</small></td>
+    <td class="lanthanide">Gd<br><small>64</small></td>
+    <td class="lanthanide">Tb<br><small>65</small></td>
+    <td class="lanthanide">Dy<br><small>66</small></td>
+    <td class="lanthanide">Ho<br><small>67</small></td>
+    <td class="lanthanide">Er<br><small>68</small></td>
+    <td class="lanthanide">Tm<br><small>69</small></td>
+    <td class="lanthanide">Yb<br><small>70</small></td>
+    <td class="lanthanide">Lu<br><small>71</small></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="empty"></td>
+    <td class="actinide">Ac<br><small>89</small></td>
+    <td class="actinide">Th<br><small>90</small></td>
+    <td class="actinide">Pa<br><small>91</small></td>
+    <td class="actinide">U<br><small>92</small></td>
+    <td class="actinide">Np<br><small>93</small></td>
+    <td class="actinide">Pu<br><small>94</small></td>
+    <td class="actinide">Am<br><small>95</small></td>
+    <td class="actinide">Cm<br><small>96</small></td>
+    <td class="actinide">Bk<br><small>97</small></td>
+    <td class="actinide">Cf<br><small>98</small></td>
+    <td class="actinide">Es<br><small>99</small></td>
+    <td class="actinide">Fm<br><small>100</small></td>
+    <td class="actinide">Md<br><small>101</small></td>
+    <td class="actinide">No<br><small>102</small></td>
+    <td class="actinide">Lr<br><small>103</small></td>
+  </tr>
+</table>
+
+</body>
+</html>
